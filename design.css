@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/* Tombol ke Atas */
+
+a.tombol-atas{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: greenyellow;
+    bottom: 40px;
+    right: 70px;
+    text-align: center;
+    line-height: 10px;
+    color: black;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.container1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(sampah-plastik.jpg);
+    background-size: cover;
+    opacity: 0.5;
+}
+
+div.nav1{
+    position: absolute;
+    width: 100%;
+    top: 0%;
+}
+
+nav{
+    background-color: #0000;
+    height: 80px;
+    width: 100%;
+    font-weight: bold;
+}
+.ul{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+/* label.logo{
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;
+} */
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+}
+
+div.text1{
+    position: absolute;
+    width: 60%;
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 275px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+div.container2 {
+    background-color: #47d147;
+    width: 100%;
+    height: 60%;
+}
+.text2{
+    width: 90%;
+    text-align: justify;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div.container3 {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+div.dampak1{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+div.dampak2{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+div.dampak3{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+div.card-group{
+    text-align: justify;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div.container5 {
+    background-color: #53c653;
+    width: 100%;
+    height: 100%;
+}
+.text3{
+    width: 90%;
+    text-align: justify;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container6{
+    width: 100%;
+    height: 100vh;
+    background-image: url(tempat-sampah.jpg);
+    background-size: cover;
+    opacity: 0.5;
+}
+
+div.nav2{
+    position: absolute;
+    width: 100%;
+    top: 0%;
+}
+
+div.text5{
+    width: 100%;
+    text-align: center;
+}
+
+div.slideshow{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 200px;
+}
+.text4{
+    display: none;
+    padding: 80px;
+    text-align: center;   
+}
+.kiri, .kanan {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: 50px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.kanan {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.kiri:hover, .kanan:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+.tombol-slider {
+    text-align: center;
+    padding: 20px;
+    background: #53c653;
+}
+.tombol {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .tombol:hover {
+  background-color:greenyellow;
+}
